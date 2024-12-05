@@ -1,0 +1,118 @@
+{
+    "DIPHENHYDRAMINE": {
+        "Journal of emergency nursing": [
+            {
+                "date": "1 January 2020",
+                "id": "NCT01967433"
+            },
+            {
+                "date": "1 January 2020",
+                "id": "NCT04189588"
+            },
+            {
+                "date": "1 January 2020",
+                "id": "NCT04237091"
+            },
+            {
+                "date": "01/01/2019",
+                "id": 1
+            },
+            {
+                "date": "01/01/2019",
+                "id": 2
+            }
+        ],
+        "The Journal of pediatrics": [
+            {
+                "date": "02/01/2019",
+                "id": 3
+            }
+        ]
+    },
+    "TETRACYCLINE": {
+        "American journal of veterinary research": [
+            {
+                "date": "02/01/2020",
+                "id": 5
+            }
+        ],
+        "Journal of food protection": [
+            {
+                "date": "01/01/2020",
+                "id": 4
+            }
+        ],
+        "Psychopharmacology": [
+            {
+                "date": "2020-01-01",
+                "id": 6
+            }
+        ]
+    },
+    "ETHANOL": {
+        "Psychopharmacology": [
+            {
+                "date": "2020-01-01",
+                "id": 6
+            }
+        ]
+    },
+    "ATROPINE": {
+        "The journal of maternal-fetal & neonatal medicine": [
+            {
+                "date": "01/03/2020",
+                "id": ""
+            }
+        ]
+    },
+    "EPINEPHRINE": {
+        "Journal of emergency nursing\\xc3\\x28": [
+            {
+                "date": "27 April 2020",
+                "id": "NCT04188184"
+            }
+        ],
+        "The journal of allergy and clinical immunology. In practice": [
+            {
+                "date": "01/02/2020",
+                "id": 7
+            },
+            {
+                "date": "01/03/2020",
+                "id": 8
+            }
+        ]
+    },
+    "ISOPRENALINE": {
+        "Journal of photochemistry and photobiology. B, Biology": [
+            {
+                "date": "01/01/2020",
+                "id": 9
+            }
+        ]
+    },
+    "BETAMETHASONE": {
+        "H\u00f4pitaux Universitaires de Gen\u00e8ve": [
+            {
+                "date": "1 January 2020",
+                "id": "NCT04153396"
+            }
+        ],
+        "Journal of back and musculoskeletal rehabilitation": [
+            {
+                "date": "01/01/2020",
+                "id": "11"
+            }
+        ],
+        "The journal of maternal-fetal & neonatal medicine": [
+            {
+                "date": "01/01/2020",
+                "id": 10
+            },
+            {
+                "date": "01/03/2020",
+                "id": ""
+            }
+        ]
+    }
+}
