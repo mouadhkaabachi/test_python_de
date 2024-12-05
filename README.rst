@@ -42,15 +42,16 @@ Le projet est organisé de la manière suivante :
 
 Le projet est organisé de la manière suivante :
 
+.. code-block:: text
 
-data_pipeline_project/
-├── data/                   # Contient les fichiers CSV et JSON de données
-├── output/                 # Résultats générés par le script
-├── scripts/                # Contient les scripts Python
-│   ├── __init__.py         # Initialisation du package
-│   ├── data_pipeline.py    # Script de la pipeline de données
-│   ├── ad_hoc_functions.py # Fonctions ad-hoc
-│   ├── main.py             # Script principal pour lancer la pipeline
+        data_pipeline_project/
+        ├── data/                   # Contient les fichiers CSV et JSON de données
+        ├── output/                 # Résultats générés par le script
+        ├── scripts/                # Contient les scripts Python
+        │   ├── __init__.py         # Initialisation du package
+        │   ├── data_pipeline.py    # Script de la pipeline de données
+        │   ├── ad_hoc_functions.py # Fonctions ad-hoc
+        │   ├── main.py             # Script principal pour lancer la pipeline
 
 
 
@@ -115,9 +116,10 @@ Optimisez l’accès aux données en mettant en place des indices et des straté
 
 Réponse à la partie SQL du test
 
+1)
+--
 
 ```
-
     SELECT
         date,
         SUM(prod_price * prod_qty) AS ventes
@@ -128,10 +130,10 @@ Réponse à la partie SQL du test
 
 ```
 
-2. Ventes par client et par type de produit (Meubles vs Décorations)
+2)
+--
 
 ```
-
     SELECT
         t.client_id,
         SUM(CASE WHEN pn.product_type = 'MEUBLE' THEN t.prod_price * t.prod_qty ELSE 0 END) AS ventes_meuble,
@@ -140,7 +142,6 @@ Réponse à la partie SQL du test
     JOIN PRODUCT_NOMENCLATURE pn ON t.prod_id = pn.product_id
     WHERE t.date BETWEEN '2019-01-01' AND '2019-12-31'
     GROUP BY t.client_id;
-
-
 ```
+
 
